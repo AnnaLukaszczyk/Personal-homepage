@@ -11,6 +11,8 @@ export const Wrapper = styled.header`
 
 export const Photo = styled.img`
 	width: 25vw;
+    max-width: 420px;
+    max-height: 420px;
 	border-radius: 50%;
 `;
 
