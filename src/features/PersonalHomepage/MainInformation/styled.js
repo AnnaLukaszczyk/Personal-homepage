@@ -29,7 +29,7 @@ margin-top: 12px;
 `;
 
 export const Summary = styled.p`
-margin: 36px 0 0 0;
+margin: 36px 0 32px 0;
 font-size: 20px;
 line-height: 1.5;
 `;
