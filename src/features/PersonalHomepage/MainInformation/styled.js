@@ -6,7 +6,6 @@ export const Wrapper = styled.header`
 	grid-gap: 72px;
 	align-items: center;
     width: 1120px;
-	border: 1px solid red;
 `;
 
 export const Photo = styled.img`
