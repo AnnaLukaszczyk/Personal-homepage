@@ -4,6 +4,7 @@ const colorNames = {
 	whiteLilac: "#FBFBFE",
 	black: "#252525",
 	slateGray: "#6E7E91",
+	anakiwa: "#8CC2FF",
 };
 
 export const themeLight = {
@@ -13,6 +14,10 @@ export const themeLight = {
 		site: {
 			background: colorNames.whiteLilac,
 			text: colorNames.slateGray,
+		},
+		buttonLink: {
+			text: colorNames.white,
+			shadow: colorNames.anakiwa,
 		},
 	},
 };
