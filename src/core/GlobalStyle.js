@@ -14,7 +14,6 @@ export const GlobalStyle = createGlobalStyle`
 		background: ${({ theme }) => theme.colors.site.background};
 		color: ${({ theme }) => theme.colors.site.text};
 		font-size: 18px;
-		word-break: break-word;
 		padding-bottom: 108px;
 	}
 `;
