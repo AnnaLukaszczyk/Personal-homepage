@@ -1,5 +1,9 @@
 import { ButtonLink } from "./styled";
 
-export const Button = ({ children }) => {
-	return <ButtonLink>{children}</ButtonLink>;
+export const Button = ({ href, title, children }) => {
+	return (
+		<ButtonLink href={href} title={title}>
+			{children}
+		</ButtonLink>
+	);
 };
