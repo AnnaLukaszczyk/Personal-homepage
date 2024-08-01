@@ -19,5 +19,8 @@ export const themeLight = {
 			text: colorNames.white,
 			shadow: colorNames.anakiwa,
 		},
+		themeSwitch: {
+			icon: colorNames.white,
+		},
 	},
 };
