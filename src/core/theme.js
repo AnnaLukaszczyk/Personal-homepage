@@ -5,6 +5,9 @@ const colorNames = {
 	black: "#252525",
 	slateGray: "#6E7E91",
 	anakiwa: "#8CC2FF",
+	dodgerBlue: "#2188FF",
+	mineShaft: "#252525",
+	shipCove: "#6D93BE",
 };
 
 const common = {
@@ -30,6 +33,25 @@ export const themeLight = {
 		},
 		themeSwitch: {
 			icon: colorNames.white,
+		},
+	},
+};
+
+export const themeDark = {
+	...common,
+	colors: {
+		primary: colorNames.dodgerBlue,
+		textPrimary: colorNames.white,
+		site: {
+			background: colorNames.mineShaft,
+			text: colorNames.white,
+		},
+		buttonLink: {
+			text: colorNames.white,
+			shadow: colorNames.shipCove,
+		},
+		themeSwitch: {
+			icon: colorNames.mineShaft,
 		},
 	},
 };
