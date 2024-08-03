@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
 	justify-content: flex-end;
 `;
 
-export const Box = styled.button`
+export const Box = styled.div`
 	display: flex;
 	align-items: center;
 	background: none;
@@ -27,6 +27,12 @@ export const Text = styled.span`
 	@media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
 		display: none;
 	}
+`;
+
+export const Button = styled.button`
+	padding: 4px 4px 0 4px;
+	background: none;
+	border: none;
 `;
 
 export const Icon = styled(SunIcon)`
