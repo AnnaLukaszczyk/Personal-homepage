@@ -11,6 +11,10 @@ export const ButtonLink = styled.a`
 	cursor: pointer;
 	transition: box-shadow 0.3s;
 
+	@media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
+		padding: 8px 12px;
+	}
+
 	&:hover {
 		box-shadow: 4px 4px 0 ${({ theme }) => theme.colors.buttonLink.shadow},
 			-4px -4px 0 ${({ theme }) => theme.colors.buttonLink.shadow},
