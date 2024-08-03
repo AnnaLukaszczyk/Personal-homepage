@@ -19,8 +19,17 @@ export const Text = styled.span`
 	font-weight: bold;
 	text-transform: uppercase;
 	color: ${({ theme }) => theme.colors.site.text};
+
+	@media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
+		font-size: 10px;
+	}
+
+	@media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+		display: none;
+	}
 `;
 
 export const Icon = styled(SunIcon)`
 	color: ${({ theme }) => theme.colors.themeSwitch.icon};
+	cursor: pointer;
 `;
