@@ -7,7 +7,16 @@ const colorNames = {
 	anakiwa: "#8CC2FF",
 };
 
+const common = {
+	breakpoints: {
+		mobileMax: 767,
+		tabletVerticalMax: 991,
+		tabletHorizontalMax: 1199,
+	},
+};
+
 export const themeLight = {
+	...common,
 	colors: {
 		primary: colorNames.scienceBlue,
 		textPrimary: colorNames.black,
