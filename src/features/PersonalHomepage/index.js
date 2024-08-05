@@ -1,6 +1,7 @@
 import { ThemeSwitch } from "../../common/ThemeSwitch";
 import { MainInformation } from "./MainInformation";
-import { Skills } from "./Skilks";
+import { Skills } from "./Skills";
+import { skills, nextSkills } from "./Skills/skillsData";
 import { Container } from "./styled";
 
 export const PersonalHomepage = () => (
@@ -8,8 +9,14 @@ export const PersonalHomepage = () => (
 		<ThemeSwitch />
 		<MainInformation />
 		<main>
-			<Skills title={"My skillset includes 🛠️"}/>
-			<Skills title={"What I want to learn next 🚀"}/>
+			<Skills 
+				title={"My skillset includes 🛠️"} 
+				skills={skills} 
+			/>
+			<Skills 
+				title={"What I want to learn next 🚀"} 
+				skills={nextSkills} 
+			/>
 		</main>
 	</Container>
 );
