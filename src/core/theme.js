@@ -8,6 +8,9 @@ const colorNames = {
 	dodgerBlue: "#2188FF",
 	shipCove: "#6D93BE",
 	mercury: "#e5e5e5",
+	lightGray: "#6e7e9144",
+	mineshaftLighter: "#313131",
+	tundora: "#414141",
 };
 
 const common = {
@@ -31,6 +34,9 @@ export const themeLight = {
 			text: colorNames.white,
 			shadow: colorNames.anakiwa,
 		},
+		boxBackground: colorNames.white,
+		boxShadow: colorNames.lightGray,
+		headerLine: colorNames.mercury,
 		themeSwitch: {
 			background: colorNames.white,
 			icon: colorNames.white,
@@ -53,6 +59,9 @@ export const themeDark = {
 			text: colorNames.white,
 			shadow: colorNames.shipCove,
 		},
+		boxBackground: colorNames.mineshaftLighter,
+		boxShadow: "none",
+		headerLine: colorNames.tundora,
 		themeSwitch: {
 			background: colorNames.black,
 			icon: colorNames.black,
