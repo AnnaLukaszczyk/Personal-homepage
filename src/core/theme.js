@@ -6,8 +6,8 @@ const colorNames = {
 	slateGray: "#6E7E91",
 	anakiwa: "#8CC2FF",
 	dodgerBlue: "#2188FF",
-	mineShaft: "#252525",
 	shipCove: "#6D93BE",
+	mercury: "#e5e5e5",
 };
 
 const common = {
@@ -32,7 +32,10 @@ export const themeLight = {
 			shadow: colorNames.anakiwa,
 		},
 		themeSwitch: {
+			background: colorNames.white,
 			icon: colorNames.white,
+			border: colorNames.slateGray,
+			iconBox: colorNames.slateGray,
 		},
 	},
 };
@@ -43,7 +46,7 @@ export const themeDark = {
 		primary: colorNames.dodgerBlue,
 		textPrimary: colorNames.white,
 		site: {
-			background: colorNames.mineShaft,
+			background: colorNames.black,
 			text: colorNames.white,
 		},
 		buttonLink: {
@@ -51,7 +54,10 @@ export const themeDark = {
 			shadow: colorNames.shipCove,
 		},
 		themeSwitch: {
-			icon: colorNames.mineShaft,
+			background: colorNames.black,
+			icon: colorNames.black,
+			border: colorNames.white,
+			iconBox: colorNames.white,
 		},
 	},
 };
