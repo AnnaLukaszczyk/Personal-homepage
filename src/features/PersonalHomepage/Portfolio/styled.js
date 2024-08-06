@@ -3,6 +3,10 @@ import { ReactComponent as GithubIcon } from "./github.svg";
 
 export const Section = styled.section`
 	margin-top: 72px;
+
+	@media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+		margin-top: 48px;
+	}
 `;
 
 export const Header = styled.header`
@@ -18,6 +22,10 @@ export const HeaderTitle = styled.h2`
 	font-size: 30px;
 	font-weight: 900;
 	color: ${({ theme }) => theme.colors.textPrimary};
+
+	@media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+		font-size: 20px;
+	}
 `;
 
 export const MyRecentProjects = styled.h3`
@@ -25,4 +33,8 @@ export const MyRecentProjects = styled.h3`
 	font-size: 20px;
 	font-weight: normal;
 	color: ${({ theme }) => theme.colors.textPrimary};
+
+	@media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+		font-size: 17px;
+	}
 `;
