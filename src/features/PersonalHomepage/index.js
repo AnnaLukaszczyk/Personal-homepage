@@ -1,5 +1,6 @@
 import { ThemeSwitch } from "../../common/ThemeSwitch";
 import { MainInformation } from "./MainInformation";
+import { Portfolio } from "./Portfolio";
 import { Skills } from "./Skills";
 import { skills, nextSkills } from "./Skills/skillsData";
 import { Container } from "./styled";
@@ -18,5 +19,6 @@ export const PersonalHomepage = () => (
 				skills={nextSkills} 
 			/>
 		</main>
+		<Portfolio />
 	</Container>
 );
