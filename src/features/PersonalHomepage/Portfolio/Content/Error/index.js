@@ -10,6 +10,6 @@ export const Error = () => (
 			<br />
 			You can check them directly on Github.
 		</Paragraph>
-		<Button>Go to Github</Button>
+		<Button href={`https://github.com/AnnaLukaszczyk`} target="_blank" title="Go to Anna Lukaszczyk's Github profile">Go to Github</Button>
 	</Wrapper>
 );
