@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as envelope } from "../Button/envelope.svg";
+import { ReactComponent as envelope } from "../ButtonLink/envelope.svg";
 
 export const Wrapper = styled.header`
 	display: grid;

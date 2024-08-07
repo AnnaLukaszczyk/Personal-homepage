@@ -1,4 +1,4 @@
-import { Button } from "../Button";
+import { Button } from "../ButtonLink";
 import annaLukaszczykProfile from "./profile.jpg";
 import { email } from "../email";
 import { Wrapper, Photo, ThisIs, Name, Summary, Envelope } from "./styled";

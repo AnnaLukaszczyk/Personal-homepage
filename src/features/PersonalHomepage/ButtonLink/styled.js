@@ -8,6 +8,7 @@ export const ButtonLink = styled.a`
 	color: ${({ theme }) => theme.colors.buttonLink.text};
 	border-radius: 4px;
 	text-decoration: none;
+	letter-spacing: 1px;
 	cursor: pointer;
 	transition: box-shadow 0.3s;
 
