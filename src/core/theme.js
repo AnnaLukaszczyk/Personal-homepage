@@ -11,6 +11,11 @@ const colorNames = {
 	lightGray: "#6e7e9144",
 	mineshaftLighter: "#313131",
 	tundora: "#414141",
+	porcelain: "#F2F3F4",
+	tropicalBlue: "#CDE0F7",
+	blumine: "#1F5189",
+	primaryAlpha: "#0366d836",
+	dodgerBlueAlpha: "#2188FF56",
 };
 
 const common = {
@@ -43,6 +48,12 @@ export const themeLight = {
 			border: colorNames.slateGray,
 			iconBox: colorNames.slateGray,
 		},
+		tile: {
+			border: colorNames.porcelain,
+			borderHover: colorNames.tropicalBlue,
+			header: colorNames.scienceBlue,
+			linkBorderBottom: colorNames.primaryAlpha,
+		},
 	},
 };
 
@@ -67,6 +78,12 @@ export const themeDark = {
 			icon: colorNames.black,
 			border: colorNames.white,
 			iconBox: colorNames.white,
+		},
+		tile: {
+			border: colorNames.tundora,
+			borderHover: colorNames.blumine,
+			header: colorNames.white,
+			linkBorderBottom: colorNames.dodgerBlueAlpha,
 		},
 	},
 };
