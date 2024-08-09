@@ -1,7 +1,6 @@
 import {
 	Description,
 	Link,
-	LinkName,
 	LinkRow,
 	Links,
 	LinkValue,
@@ -18,13 +17,13 @@ export const Repositories = () => (
 				<Description>It's a simple task list where you can add your task, mark a task as completed, or remove a task from the list.</Description>
 				<Links>
 					<LinkRow>
-						<LinkName>Demo:</LinkName>
+						<dt>Demo:</dt>
 						<LinkValue>
                         <Link href={`https://annalukaszczyk.github.io/my-todo-list-react/`} target="_blank" rel="noreferrer">https://annalukaszczyk.github.io/my-todo-list-react/</Link>
 						</LinkValue>
 					</LinkRow>
                     <LinkRow>
-						<LinkName>Code:</LinkName>
+						<dt>Code:</dt>
 						<LinkValue>
 							<Link href={`https://github.com/AnnaLukaszczyk/my-todo-list-react`} target="_blank" rel="noreferrer">https://github.com/AnnaLukaszczyk/my-todo-list-react</Link>
 						</LinkValue>
