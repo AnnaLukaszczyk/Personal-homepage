@@ -10,7 +10,6 @@ import {
 } from "./styled";
 
 export const Repositories = () => (
-	<>
 		<List>
 			<Tile>
 				<Name>my-todo-list-react</Name>
@@ -31,5 +30,4 @@ export const Repositories = () => (
 				</Links>
 			</Tile>
 		</List>
-	</>
 );
