@@ -9,25 +9,36 @@ import {
 	Tile,
 } from "./styled";
 
-export const Repositories = () => (
-		<List>
-			<Tile>
-				<Name>my-todo-list-react</Name>
-				<Description>It's a simple task list where you can add your task, mark a task as completed, or remove a task from the list.</Description>
+export const Repositories = ({ repositories }) => (
+	<List>
+		{repositories.map(({ id, name, description, homepage, html_url }) => (
+			<Tile key={id}>
+				<Name>{name}</Name>
+				<Description>{description}</Description>
 				<Links>
+					{!!homepage && (
+						<LinkRow>
+							<dt>Demo:</dt>
+							<LinkValue>
+								<Link
+									href={`https://annalukaszczyk.github.io/my-todo-list-react/`}
+									target="_blank"
+									rel="noreferrer">
+									https://annalukaszczyk.github.io/my-todo-list-react/
+								</Link>
+							</LinkValue>
+						</LinkRow>
+					)}
 					<LinkRow>
-						<dt>Demo:</dt>
-						<LinkValue>
-                        <Link href={`https://annalukaszczyk.github.io/my-todo-list-react/`} target="_blank" rel="noreferrer">https://annalukaszczyk.github.io/my-todo-list-react/</Link>
-						</LinkValue>
-					</LinkRow>
-                    <LinkRow>
 						<dt>Code:</dt>
 						<LinkValue>
-							<Link href={`https://github.com/AnnaLukaszczyk/my-todo-list-react`} target="_blank" rel="noreferrer">https://github.com/AnnaLukaszczyk/my-todo-list-react</Link>
+							<Link target="_blank" rel="noreferrer" href={html_url}>
+								{html_url}
+							</Link>
 						</LinkValue>
 					</LinkRow>
 				</Links>
 			</Tile>
-		</List>
+		))}
+	</List>
 );
