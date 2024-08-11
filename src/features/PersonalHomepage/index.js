@@ -1,4 +1,5 @@
 import { ThemeSwitch } from "../../common/ThemeSwitch";
+import { Footer } from "./Footer";
 import { MainInformation } from "./MainInformation";
 import { Portfolio } from "./Portfolio";
 import { Skills } from "./Skills";
@@ -20,5 +21,6 @@ export const PersonalHomepage = () => (
 			/>
 		</main>
 		<Portfolio />
+		<Footer />
 	</Container>
 );
