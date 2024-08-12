@@ -8,7 +8,11 @@ Hi, I`m Anna, a **React Frontend Developer**. This is my personal page where you
 
 I really like responsive designs, so my "Personal Home Page" is responsive to both desktop and mobile devices.
 
+### Computer version
+
 ![For computer](https://github.com/AnnaLukaszczyk/Personal-homepage/blob/main/src/ImagesForGitHub/computer_version.gif?raw=true)
+
+### Mobile version
 
 ![For mobile](https://github.com/AnnaLukaszczyk/Personal-homepage/blob/main/src/ImagesForGitHub/mobile_version.gif?raw=true)
 
