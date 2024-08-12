@@ -1,3 +1,23 @@
+## Demo
+
+https://annalukaszczyk.github.io/Personal-homepage/
+
+## Technologies
+
+In this project used:
+- HTML
+- CSS
+- styled components
+- JavaScript
+- Grid
+- Flex
+- media queries
+- React.js
+- Create React App
+- Custom Hooks
+- API Integration
+- Redux Saga
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
