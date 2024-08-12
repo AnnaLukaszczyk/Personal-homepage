@@ -25,10 +25,10 @@ export const Repositories = ({ repositories }) => {
 									<dt>Demo:</dt>
 									<LinkValue>
 										<Link
-											href={`https://annalukaszczyk.github.io/my-todo-list-react/`}
+											href={homepage}
 											target="_blank"
 											rel="noreferrer">
-											https://annalukaszczyk.github.io/my-todo-list-react/
+											{homepage}
 										</Link>
 									</LinkValue>
 								</LinkRow>
