@@ -1,3 +1,17 @@
+# Personal homepage
+
+![Personal_homepage](https://github.com/AnnaLukaszczyk/Personal-homepage/blob/main/src/ImagesForGitHub/main_photo.png?raw=true)
+
+## Description
+
+Hi, I`m Anna, a **React Frontend Developer**. This is my personal page where you can find out what I have learned so far, what I am still learning, and what I plan to learn in the future 😉
+
+I really like responsive designs, so my "Personal Home Page" is responsive to both desktop and mobile devices.
+
+![For computer](https://github.com/AnnaLukaszczyk/Personal-homepage/blob/main/src/ImagesForGitHub/computer_version.gif?raw=true)
+
+![For mobile](https://github.com/AnnaLukaszczyk/Personal-homepage/blob/main/src/ImagesForGitHub/mobile_version.gif?raw=true)
+
 ## Demo
 
 https://annalukaszczyk.github.io/Personal-homepage/
@@ -10,7 +24,7 @@ In this project used:
 - styled components
 - JavaScript
 - Grid
-- Flex
+- Flexbox
 - media queries
 - React.js
 - Create React App
