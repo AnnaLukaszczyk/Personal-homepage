@@ -13,17 +13,17 @@ export const skills = [
 	"NPM",
 	"Markdown",
 	"Figma",
+	"Trello",
+	"Teamwork",
+];
+
+export const currentSkills = [
 	"Error handling",
 	"Working with API (fetch, axios)",
 	"Redux (Toolkit)",
 	"Promises, Async/Await",
 	"Redux-Saga",
 	"React Router",
-	"Trello",
-	"Teamwork",
 ];
 
-export const nextSkills = [
-	"TypeScript",
-	"Angular",
-];
+export const nextSkills = ["TypeScript", "Angular"];
