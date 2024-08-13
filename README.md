@@ -10,7 +10,7 @@ I really like responsive designs, so my "Personal Home Page" is responsive to bo
 
 ### Computer version
 
-![For computer](https://github.com/AnnaLukaszczyk/Personal-homepage/blob/main/src/ImagesForGitHub/computer_version.gif?raw=true)
+![For desktop](https://github.com/AnnaLukaszczyk/Personal-homepage/blob/main/src/ImagesForGitHub/desktop_version.gif?raw=true)
 
 ### Mobile version
 
