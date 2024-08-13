@@ -1,5 +1,5 @@
 import { Item, Link, List } from "./styled";
-import { socials } from "./icons/socials";
+import { socials } from "./socials";
 
 export const SocialIcons = () => (
 	<List>
