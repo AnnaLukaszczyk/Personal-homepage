@@ -1,7 +1,7 @@
-import { styleIcon } from "../styled";
-import { ReactComponent as GithubIcon } from "./github.svg";
-import { ReactComponent as FacebookIcon } from './facebook.svg';
-import { ReactComponent as LinkedInIcon } from './linkedin.svg';
+import { styleIcon } from "./styled";
+import { ReactComponent as GithubIcon } from "./icons/github.svg";
+import { ReactComponent as FacebookIcon } from "./icons/facebook.svg";
+import { ReactComponent as LinkedInIcon } from "./icons/linkedin.svg";
 
 export const socials = [
 	{
